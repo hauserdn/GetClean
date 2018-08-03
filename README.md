@@ -1,6 +1,9 @@
 # GetClean
 ##This is a readme file for the peer graded project of week 4 of the Coursera Getting and Cleaning Data class
 
+## The data used in this assignment can be found at:
+### Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
+
 ## The repository contains three files:
 1. README.md : This readme file
 2. run_analysis.R : An R script for performing a tidy analysis of the Samsung data in the user's working directory
@@ -22,6 +25,3 @@ The script makes use of functions found in the tidyverse group of packages.
 ## How to read the summary.txt file uploaded to the Coursera site
 
 summary <- read.table("summary.txt", header = TRUE)
-
-
-## Description of the codebook.md file:
